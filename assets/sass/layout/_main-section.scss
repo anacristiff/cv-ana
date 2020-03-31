@@ -1,0 +1,114 @@
+.main-section {
+  padding-left: 2.875rem;
+  padding-right: 2.875rem;
+}
+
+.presentation {
+  text-align: center;
+  padding-top: 4rem;
+
+  &__name {
+    padding-top: 2em;
+  }
+
+  &__adress {
+    padding-top: 1.5em;
+  }
+
+  &__text {
+    padding-top: 2em;
+    line-height: 28px;
+  }
+
+  &__rrss {
+    padding-top: 2em;
+
+    a:hover {
+      filter: drop-shadow(0 2px 5px rgba(105, 88, 88, 0.397));
+    }
+
+    img {
+      padding-left: .5em;
+      padding-right: .5em;
+    }
+  }
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid $pink-swan;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  opacity: 0.5;
+
+}
+
+.experiencia {
+  padding-top: 3em;
+  
+  &__trabajo--lugar {
+
+    h4 {
+      padding-top: .3em;
+    }
+  }
+  
+  &__trabajo--fecha {
+    text-align: right;
+  }
+
+  p {
+    padding-top: 1em;
+  }
+}
+
+.educacion {
+  padding-top: 2em;
+
+  &__trabajo--lugar {
+
+    h4 {
+      padding-top: .3em;
+    }
+  }
+
+  &__trabajo--fecha {
+    text-align: right;
+  }
+}
+
+.habilidades {
+    padding-top: 2em;
+
+    &__herramientas {
+      padding-top: 2em;
+    }
+
+    p {
+      padding-top: .5em;
+    }
+  }
+
+
+
+@media only screen and (min-width: 768px) {
+  .main-section {
+    margin-left: 30%;
+    width: 70%;
+    text-align: left;
+  }
+
+  .presentation {
+    text-align: left;
+  }
+
+  .presentation__rrss, .presentation__text {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    text-align: left;
+  }
+  
+}
+

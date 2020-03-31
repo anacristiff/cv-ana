@@ -1,0 +1,48 @@
+.contacto-container {
+
+  margin-bottom: 4em;
+  p {
+    margin-top: 2em;
+  }
+}
+
+form {
+  label {
+    margin-top: 2em;
+    font-size: $medium;
+    font-weight: $black;
+  }
+  
+  input, textarea {
+    margin-top: .8em;
+    font-family: $lato;
+    font-weight: $light;
+    font-size: $x-small;
+    padding: 1em 1.5em;
+    border: solid 1px $pink-swan;
+    border-radius: 5px;
+
+    // &:focus {
+    //   border: solid 2px $pink-swan;
+    //   border-radius: 5px;
+    // }
+  }
+}
+
+#button-form {
+  font-size: $small;
+  margin-top: 2em;
+  font-weight: $black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: $pink-swan;
+  color: $white;
+
+  &:hover {
+    background-color: $oliver;
+    color: $white;
+  }
+}
+
+
+

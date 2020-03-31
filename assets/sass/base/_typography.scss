@@ -1,0 +1,48 @@
+h1, h2 {
+  font-weight: $black;
+  color: $pink-swan;
+}
+
+
+h1 {
+  @include relative-converter (font-size, rem, $xx-large, 16);
+ 
+  @media only screen and (min-width: 768px) {
+    @include relative-converter (font-size, rem, $xxx-large, 16);
+  }
+}
+
+h2 {
+  text-align: center;
+  @include relative-converter (font-size, rem, $x-large, 16);
+
+  @media only screen and (min-width: 768px) {
+    @include relative-converter (font-size, rem, $xx-large, 16);
+  }
+}
+
+h3, h4{
+  @include relative-converter (font-size, rem, $large, 16);
+} 
+
+@media only screen and (max-width: 768px) {
+  h4 {
+  @include relative-converter (font-size, rem, $small, 16);
+}
+}
+
+h3 {
+  font-weight: $black;
+}
+
+h4, p {
+  font-weight: $light;
+}
+
+p {
+  @include relative-converter (font-size, rem, $small, 16);
+ 
+  @media only screen and (min-width: 768px) {
+    @include relative-converter (font-size, rem, $medium, 16);
+  }
+}
