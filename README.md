@@ -14,3 +14,7 @@ Usé el patrón "Mostly Fluid" ya que; por su diseño, la página podía dividir
 Para ello, usé medidas relativas como %, em y rem. Además, usé css grids para distribuir los elementos.
 
 ### SKETCH
+
+![Desk-mobile](https://github.com/anacristiff/cv-ana/blob/master/desktop-mobile.jpg)
+
+![tablet](https://github.com/anacristiff/cv-ana/blob/master/tablet.jpg)
