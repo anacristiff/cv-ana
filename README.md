@@ -1,4 +1,4 @@
-## Curriculum Ana Fariñasv
+## Curriculum Ana Fariñas
 ### Desafío 6 - CSS Avanzado
 
 **1- ¿Qué tipo de patrón usaste para el proyecto?**
